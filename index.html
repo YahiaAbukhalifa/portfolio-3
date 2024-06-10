@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio template</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+Antique&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-header">
+      <nav>
+        <div class="logo">
+          <img src="./images/logo.webp" alt="logo" />
+          <span>Yahia Mohammed</span>
+        </div>
+        <div class="links">
+          <a href="#home" class="smooth-scroll">Home</a>
+          <a href="#about" class="smooth-scroll">About Me</a>
+          <a href="#services" class="smooth-scroll">Services</a>
+          <a href="#projects" class="smooth-scroll">Projects</a>
+          <a href="#contact" class="smooth-scroll">Contact me</a>
+        </div>
+        <i class="fa-solid fa-bars" id="nav-mobile" onclick="mobileNav()"></i>
+        <a class="chat" href="https://wa.me/+201121098685?text= Let's chat" target="_blank">Let's chat</a>
+      </nav>
+    </div>
+    <div class="mobileLinks" id="mobileLinks">
+      <a href="#home" class="smooth-scroll">Home</a>
+      <a href="#about" class="smooth-scroll">About Me</a>
+      <a href="#services" class="smooth-scroll">Services</a>
+      <a href="#projects" class="smooth-scroll">Projects</a>
+      <a href="#contact" class="smooth-scroll">Contact me</a>
+    </div>
+    <div class="home" id="home">
+      <div class="personalImage">
+        <img
+          src="./images/personalimg.webp"
+          alt="Yahia Mohammed personal image"
+        />
+      </div>
+      <div class="text">
+        <p class="welcome">Welcome to my Portfolio</p>
+        <p class="hi">Hi I’m</p>
+        <h1>Yahia Mohammed</h1>
+        <p class="job">Front-end developer</p>
+        <div>
+          <a class="hire" href="https://wa.me/+201121098685?text=I want to hire you in my company" target="_blank">Hire Me!</a>
+          <a class="downloadCV" href="CV.pdf" download="Yahia Mohammed CV.pdf" target="_blank">Download CV <i class="fa-solid fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="skillspromo">
+      <img
+        src="./images/figma.webp"
+        alt="I have powerfull skills in dealing with figma"
+      />
+      <img src="./images/react.webp" alt="Recat js" />
+      <img src="./images/sass.webp" alt="SASS css framework" />
+    </div>
+
+    <p class="title">About Me</p>
+    <div class="about" id="about">
+      <div class="image">
+        <img src="./images/personalimg.webp" alt="Mypersonal image" />
+      </div>
+      <div class="info">
+        <p class="experience">4 Years' Experience</p>
+        <p class="job">in Front-End development</p>
+        <p class="fulltext">
+          Hello there! I'm <strong>Yahia Mohammed</strong>. I specialize in
+          Front-End development, and I'm deeply passionate and committed to my
+          craft. With <strong>4 years'</strong> of experience
+        </p>
+        <div class="moreinfo">
+          <button class="mainskills active">Main skills</button>
+          <button class="awards">Awards</button>
+          <button class="education">Education</button>
+          <div class="infobox" id="about">
+            <div class="mainskills active">
+              <p>Front-end development</p>
+              <div class="skillsbar"><div></div></div>
+            </div>
+            <div class="awards">
+              <ul>
+                <li>3RD categoty SOFT in BASEF fair (Before ISEF fair)</li>
+              </ul>
+            </div>
+            <div class="education">
+              <ul>
+                <li>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="title">About Me</p>
+    <div class="services" id="services">
+      <p class="promoservices">Exploring My <span>Skills</span></p>
+      <p class="descriptionservices">
+        I transform your ideas and designs into a distinctive web project that
+        both inspires you and captivates your customers
+      </p>
+
+      <div class="services-cards">
+        <div>
+          <img src="./images/code-design.webp" alt="Design to code" />
+          <p class="titlecard">Convert your design into code</p>
+          <p class="description">
+            Convert the design you have to a real website that customers can
+            accses
+          </p>
+        </div>
+        <div>
+          <img src="./images/code-design.webp" alt="Design to code" />
+          <p class="titlecard">Convert your intuition into code</p>
+          <p class="description">
+            Convert the intuition in your mind to a real website that customers
+            can accses
+          </p>
+        </div>
+        <div>
+          <img src="./images/upload.webp" alt="Design to code" />
+          <p class="titlecard">Upload the code to be accessed by any user</p>
+          <p class="description">
+            Upload the code to be accessed by any user in the world (especially
+            to hostinger)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="milestone">
+      <p class="milestonetitle">Our Milestones</p>
+      <p class="descriptionmilestone">What sets me apart for your projects?</p>
+      <div class="cards-container">
+        <div class="card-milestone">
+          <p class="number">13+</p>
+          <p class="description">Diffrent projects in front-end filed</p>
+        </div>
+        <div class="card-milestone">
+          <p class="number">1</p>
+          <p class="description">Real project submitted to customers</p>
+        </div>
+        <div class="card-milestone">
+          <p class="number">1</p>
+          <p class="description">
+            Upload projects and appeear in top of search
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="title">Our projects</p>
+    <p class="description-projects">Presenting My Websites Portfolio</p>
+    <div class="projects" id="projects">
+      <div class="filter">
+        <button class="all active">All</button>
+        <button class="commerce">commerce</button>
+        <button class="portfolio">Portfolio</button>
+        <button class="learning">learning</button>
+        <button class="landing">landing</button>
+      </div>
+      <div class="cards">
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="portfolio"
+        />
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="commerce"
+        />
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="portfolio"
+        />
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="learning"
+        />
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="commerce"
+        />
+        <img
+          src="./images/project.webp"
+          alt="project"
+          class="project"
+          id="landing"
+        />
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <p class="title-contact">Contact Me</p>
+      <div class="info-contact">
+        <p class="number"><strong>Number</strong> : 0111111111</p>
+        <p class="email"><strong>Email</strong> : example@example.com</p>
+        <p class="address"><strong>Address</strong> : example</p>
+        <p class="work"><strong>Work hours</strong> :Mon - Sat: 9:00 - 18:00</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
